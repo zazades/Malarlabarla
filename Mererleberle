@@ -1,4 +1,4 @@
-local playerNames1 = {"angell02400","farmniba","YusufYT508","GriffithTheBestTop","egenin1cm","Aoit_7","GoldafkHalley122"} 
+local playerNames1 = {"angell02400","farmniba","YusufYT508","GriffithTheBestTop","egenin1cm","Aoit_7"} 
 local player = game.Players.LocalPlayer
 
 local function isPlayerInTable1(playerName)
@@ -264,9 +264,9 @@ local function moveTowards(destination, rate, reenable, validator, height)
                     local localDirection = ehe.CFrame:VectorToObjectSpace(direction)
                     local adjustedRate = math.min(rate, distanceToNextWaypoint)
                     local newCFrame = humrp.CFrame * CFrame.new(
-                        localDirection.X  / 2.32,
-                        localDirection.Y * 1.2,
-                        localDirection.Z  / 2.32
+                        localDirection.X  / 2.35,
+                        (localDirection.Y+0.5 ) * 1.2,
+                        localDirection.Z  / 2.35
                     )
                     ehe.CFrame = newCFrame
                     task.wait()
