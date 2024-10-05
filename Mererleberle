@@ -265,7 +265,7 @@ local function moveTowards(destination, rate, reenable, validator, height)
                     local adjustedRate = math.min(rate, distanceToNextWaypoint)
                     local newCFrame = humrp.CFrame * CFrame.new(
                         localDirection.X  / 2.35,
-                        localDirection.Y+0.5 ,
+                        localDirection.Y / 2 ,
                         localDirection.Z  / 2.35
                     )
                     ehe.CFrame = newCFrame
@@ -275,7 +275,7 @@ local function moveTowards(destination, rate, reenable, validator, height)
               	stop = false
                 break
             end
-            if (waypoints[currentPositionIndex + 1].Position - humrp.Position).magnitude < 5 then
+            if (waypoints[currentPositionIndex + 1].Position - humrp.Position).magnitude < 7 then
                 currentPositionIndex += 1
             end
             if currentPositionIndex > #waypoints then
