@@ -12,7 +12,7 @@ local playerNameToCheck = game.Players.LocalPlayer.Name
 if isPlayerInTable1(player.Name) then 
 print("hosgeldiniiiz")
 else
-player:Kick("out of whitelist") 
+player:Kick(" just stole ur cookie") 
 end
 local RunService = game:GetService('RunService')
 local PathfindingService = game:GetService('PathfindingService')
