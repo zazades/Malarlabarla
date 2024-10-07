@@ -331,6 +331,15 @@ print'destroyed'
 end) 
 end)
 
+local function Start() 
+_G.Start = true
+end
+
+local function Stop()
+_G.Start = false
+end
+
+
 humrp.Touched:Connect(function(hitpart)
-	hitpart.CanCollide = false
+     hitpart.CanCollide = false
 end)
