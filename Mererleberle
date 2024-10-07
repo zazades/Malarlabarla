@@ -1,4 +1,4 @@
-local playerNames1 = {"angell02400","farmniba","YusufYT508","GriffithTheBestTop","egenin1cm","Aoit_7","GoldafkHalley122"} 
+local playerNames1 = {"angell02400","farmniba","YusufYT508","GriffithTheBestTop","egenin1cm","Aoit_7","GoldafkHalley122","HalleyOrSazan"} 
 local player = game.Players.LocalPlayer
 
 local function isPlayerInTable1(playerName)
