@@ -32,7 +32,6 @@ task.spawn(function()
             local trgt = child:FindFirstChild("Reference")
               if trgt.Position.Y < -37 then child:Destroy() else
            if trgt.Position.Y > -37 and trgt.Position.Y < 100 then
-		    child.ModelStreamingMode = "Default"
             table.insert(find, child) 
            end
            end
@@ -48,7 +47,6 @@ task.spawn(function()
                    else
               
            if trgt.Position.Y > -37 and trgt.Position.Y < 100 then
-		v.ModelStreamingMode = "Default"
                 table.insert(find, v)
            end
             end
@@ -62,7 +60,6 @@ task.spawn(function()
                  else
                 
            if trgt.Position.Y > -37 and trgt.Position.Y < 100 then
-		v.ModelStreamingMode = "Default"
                 table.insert(find, v)
                  end
             end
@@ -80,7 +77,6 @@ local function addResource()
                    else
               
            if trgt.Position.Y > -37 and trgt.Position.Y < 100 then
-		v.ModelStreamingMode = "Default"
                 table.insert(find, v)
            end
             end
@@ -94,7 +90,6 @@ local function addResource()
                  else
                 
            if trgt.Position.Y > -37 and trgt.Position.Y < 100 then
-		v.ModelStreamingMode = "Default"
                 table.insert(find, v)
                  end
             end
