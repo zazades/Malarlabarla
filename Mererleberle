@@ -12,7 +12,7 @@ local playerNameToCheck = game.Players.LocalPlayer.Name
 if isPlayerInTable1(player.Name) then 
 print("hosgeldiniiiz")
 else
-player:Kick(" just stole ur cookie") 
+--player:Kick(" just stole ur cookie") 
 end
 
 
